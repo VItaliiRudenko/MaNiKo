@@ -1,0 +1,1 @@
+Open main.html, this is the main page of our site MaNiKo
