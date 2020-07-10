@@ -1,1 +1,15 @@
-Open main.html, this is the main page of our site MaNiKo.
+This file was created for your comments and wishes.
+
+Comments:
+1.
+2.
+3.
+...
+
+
+Wishes:
+1.
+2.
+3.
+...
+
