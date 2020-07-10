@@ -1,5 +1,5 @@
 body {
-
+margin: 0 auto;
 }
 
 *:before,
@@ -15,10 +15,47 @@ p {
    margin: 0;
 }
 
+
+
+/* Header
+====================================*/
 .header {
+   width: 100%;
+   height: 105px;
+
+   position: absolute;
+
+   top: 0;
+   left: 0;
+
+   padding: 72px 105px;
+}
+
+.header__inner {
+   display: flex;
+}
+
+.logo {
 
 }
 
+.nav {
+
+}
+
+.communicate {
+
+}
+
+
+
+/* Header
+====================================*/
 .intro {
-   
+   width: 100%;
+   height: 900px;
+
+   background: url("images/main_background.png") no-repeat;
+   background-position: center;
+   background-size: cover;
 }
