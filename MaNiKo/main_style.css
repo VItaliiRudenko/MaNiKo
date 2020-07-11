@@ -50,7 +50,7 @@ p {
 
 .nav__link {
    font-family: 'Roboto', sans-serif;
-   font-weight: normal;
+   font-weight: 300;
    font-size: 16px;
 
    padding: 0 7px;
@@ -76,7 +76,7 @@ p {
 
 .communicate__link {
    font-family: 'Roboto', sans-serif;
-   font-weight: normal;
+   font-weight: 300;
    font-size: 16px;
 
    text-decoration: none;
@@ -84,7 +84,9 @@ p {
 }
 
 .communicate__modificator {
-   padding: 2px;
+   cursor: pointer;
+   width: 14px;
+   padding: 0 3px 0;
 }
 
 
