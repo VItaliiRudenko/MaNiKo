@@ -95,17 +95,21 @@ p {
 ====================================*/
 .intro {
    display: flex;
-   flex-direction: column;
-   justify-content: center;
 
    padding-top: 105px;
+   height: 832px;
 
    width: 100%;
-   height: 900px;
 
    background: url("images/main_background.png") no-repeat;
    background-position: center;
    background-size: cover;
+}
+
+.intro__container {
+   width: inherit;
+
+   margin: 0 218px;
 }
 
 .intro__inner {
@@ -117,8 +121,6 @@ p {
    font-weight: bold;
    font-size: 90px;
 
-   transform: translateX(15%) translateY(-27%);
-
    color: #DBE5E8;
 }
 
@@ -127,9 +129,53 @@ p {
 }
 
 .intro__title_second {
-   letter-spacing: 10px;
+   letter-spacing: 20px;
 }
 
+.intro__btn {
+   position: absolute;
+
+   bottom: 94px;
+}
+
+.button {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   color: #DBE5E8;
+
+   padding: 17px 43px;
+   border: 2px solid #DBE5E8;
+
+   text-decoration: none;
+}
+
+.intro__page__counter {
+   position: absolute;
+
+   padding: 3px 0;
+
+   bottom: 94px;
+   right: 218px;
+
+   letter-spacing: 15px;
+}
+
+.page_counter {
+   cursor: pointer;
+}
+
+.page_counter:hover {
+
+   border-bottom: 2px solid #DBE5E8;
+}
+
+
+
+/* Benefits
+====================================*/
+.benefits {
+   height: 900px;
+}
 
 
 
