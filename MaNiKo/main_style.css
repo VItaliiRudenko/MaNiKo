@@ -1,199 +1,202 @@
 body {
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 *:before,
 *:after {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-   margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 p {
-   margin: 0;
+  margin: 0;
 }
-
-
 
 /* Header
 ====================================*/
 .header {
-   width: 100%;
-   height: 105px;
+  width: 100%;
+  height: 105px;
 
-   position: absolute;
+  position: absolute;
 
-   top: 0;
-   left: 0;
+  top: 0;
+  left: 0;
 }
 
 .header__inner {
-   margin: 72px 105px 0;
+  margin: 72px 105px 0;
 
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-
 }
 
 .logo:hover {
-   cursor: pointer;
+  cursor: pointer;
 }
 
 .nav {
-
 }
 
 .nav__link {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 300;
-   font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 
-   padding: 0 7px;
+  padding: 0 7px;
 
-   margin-left: 20px;
+  margin-left: 20px;
 
-   text-decoration: none;
-   color: #DBE5E8;
+  text-decoration: none;
+  color: #dbe5e8;
 }
 
 .nav__link:first-child {
-   margin-left: 0;
+  margin-left: 0;
 }
 
 .nav__link:hover {
-   padding-bottom: 7px;
-   border-bottom: 4px solid #DBE5E8;
+  padding-bottom: 7px;
+  border-bottom: 4px solid #dbe5e8;
 }
 
 .communicate {
-
 }
 
 .communicate__link {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 300;
-   font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 
-   text-decoration: none;
-   color: #DBE5E8;
+  text-decoration: none;
+  color: #dbe5e8;
 }
 
 .communicate__modificator {
-   cursor: pointer;
-   width: 14px;
-   padding: 0 3px 0;
+  cursor: pointer;
+  width: 14px;
+  padding: 0 3px 0;
 }
-
-
 
 /* Intro
 ====================================*/
 .intro {
-   display: flex;
+  display: flex;
 
-   padding-top: 105px;
-   height: 832px;
+  padding-top: 105px;
+  height: 832px;
 
-   width: 100%;
+  width: 100%;
 
-   background: url("images/main_background.png") no-repeat;
-   background-position: center;
-   background-size: cover;
+  background: url("images/main_background.png") no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .intro__container {
-   width: inherit;
+  width: inherit;
 
-   margin: 0 218px;
+  margin: 0 218px;
 }
 
 .intro__inner {
-
 }
 
 .intro__title {
-   font-family: 'Roboto', sans-serif;
-   font-weight: bold;
-   font-size: 90px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 90px;
 
-   color: #DBE5E8;
+  color: #dbe5e8;
+
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .intro__title_first {
-   line-height: 90px;
 }
 
 .intro__title_second {
-   letter-spacing: 20px;
+  letter-spacing: 20px;
+}
+
+.intro__foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .intro__btn {
-   position: absolute;
-
-   bottom: 94px;
 }
 
 .button {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 500;
-   color: #DBE5E8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #dbe5e8;
 
-   padding: 17px 43px;
-   border: 2px solid #DBE5E8;
+  text-decoration: none;
 
-   text-decoration: none;
+  /* padding: 17px 43px; */
+  border: 2px solid #dbe5e8;
+
+  width: 200px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+}
+
+.button::before {
+}
+
+.button:hover::before {
+}
+
+.button:hover {
 }
 
 .intro__page__counter {
-   position: absolute;
+  height: 54px;
 
-   padding: 3px 0;
-
-   bottom: 94px;
-   right: 218px;
-
-   letter-spacing: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .page_counter {
-   cursor: pointer;
+  cursor: pointer;
+
+  margin-left: 10px;
+  padding: 0 3px;
+}
+
+.page_counter:first-child {
+  margin-left: 0;
 }
 
 .page_counter:hover {
-
-   border-bottom: 2px solid #DBE5E8;
+  border-top: 2px solid #dbe5e8;
+  border-bottom: 2px solid #dbe5e8;
 }
 
-
+.page_counter:active {
+}
 
 /* Benefits
 ====================================*/
 .benefits {
-   height: 900px;
+  height: 900px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
