@@ -20,6 +20,8 @@ p {
   margin: 0;
 }
 
+
+
 /* Header
 ====================================*/
 .header {
@@ -40,6 +42,7 @@ p {
 }
 
 .logo {
+
 }
 
 .logo:hover {
@@ -47,6 +50,7 @@ p {
 }
 
 .nav {
+
 }
 
 .nav__link {
@@ -72,6 +76,7 @@ p {
 }
 
 .communicate {
+
 }
 
 .communicate__link {
@@ -88,6 +93,8 @@ p {
   width: 14px;
   padding: 0 3px 0;
 }
+
+
 
 /* Intro
 ====================================*/
@@ -111,6 +118,7 @@ p {
 }
 
 .intro__inner {
+
 }
 
 .intro__title {
@@ -127,6 +135,7 @@ p {
 }
 
 .intro__title_first {
+
 }
 
 .intro__title_second {
@@ -140,6 +149,7 @@ p {
 }
 
 .intro__btn {
+
 }
 
 .button {
@@ -158,15 +168,6 @@ p {
   text-align: center;
   line-height: 50px;
   position: relative;
-}
-
-.button::before {
-}
-
-.button:hover::before {
-}
-
-.button:hover {
 }
 
 .intro__page__counter {
@@ -192,11 +193,28 @@ p {
   border-bottom: 2px solid #dbe5e8;
 }
 
-.page_counter:active {
-}
+
 
 /* Benefits
 ====================================*/
 .benefits {
   height: 900px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
