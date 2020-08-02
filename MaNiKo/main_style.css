@@ -199,8 +199,6 @@ p {
 /* Benefits
 ====================================*/
 .benefits {
-  /* height: 700px; */
-
   margin-top: 83px;
 
   display: flex;
@@ -337,7 +335,7 @@ p {
   color: #202B2F;
 }
 
-.skills_line {
+.lines {
   padding-top: 12px;
 }
 
@@ -438,13 +436,75 @@ p {
   margin-left: auto;
 }
 
+.importance {
+  margin: 75px auto 0;
+  width: 1010px;
+  text-align: center;
+}
 
+.importance__text {
+  background: url(images/importance_text_background.png) no-repeat;
+  background-size: cover;
+}
 
+.importance__title {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
 
+  color: #202b2f;
+}
 
+.importance__subtitle {
+  padding: 28px 0 22px;
 
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
 
+  color: #202b2f;
+}
 
+.importance__footer {
+  margin-top: 12px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+
+  color: #202b2f;
+}
+
+.skills__footer {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 34px;
+}
+
+.skills__btn {
+
+}
+
+/* Creations
+====================================*/
+.creations {
+  
+}
+
+.creations__header {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 67px 0 83px;
+}
+
+.creations_header__title {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+
+  color: #202B2F;
+}
 
 
 
