@@ -1,5 +1,7 @@
 body {
   margin: 0 auto;
+
+  background: #D3D3D3;
 }
 
 *:before,
@@ -111,9 +113,8 @@ p {
   background-size: cover;
 }
 
-.intro__container {
+.container {
   width: inherit;
-
   margin: 0 218px;
 }
 
@@ -152,7 +153,7 @@ p {
 
 }
 
-.button {
+.intro__button {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #dbe5e8;
@@ -198,7 +199,227 @@ p {
 /* Benefits
 ====================================*/
 .benefits {
-  height: 900px;
+  /* height: 700px; */
+
+  margin-top: 83px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.benefits__our {
+  width: 50%;
+  height: 370px;
+}
+
+.benefits_our__title {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+
+  color: #202B2F;
+
+  padding-bottom: 34px;
+}
+
+.benefits_our__subtitle {
+  display: flex;
+}
+
+.benefits_our_subtitle__images{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.benefits_image {
+  padding: 18px 12px 19px 0;
+}
+
+.benefit_our_subtitle__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+
+  color: #202B2F;
+
+  width: 470px;
+  height: 235px;
+
+  padding: 0 0 10px 10px;
+
+  line-height: 48px;
+  background: url(images/benefits_our_subtitle_background.png) no-repeat;
+  background-size: cover;
+}
+
+.benefits__insert {
+  width: 50%;
+  height: 370px;
+
+  display: flex;
+  justify-content: center;
+
+  float: right;
+}
+
+.benefits_insert__border {
+  width: 435px;
+  height: 362px;
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 4px solid #232F33;
+}
+
+.benefits_insert__item {
+  display: block;
+  height: 306px;
+  width: 369px;
+
+  border: 2px solid #232F33;
+}
+
+.benefits__footer {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 83px;
+}
+
+.benefits__btn {
+
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #202B2F;
+
+  text-decoration: none;
+
+  /* padding: 17px 43px; */
+  border: 2px solid #202B2F;
+
+  width: 180px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+}
+
+
+
+/* Skills
+====================================*/
+.skills {
+
+}
+
+.skills__header {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 67px 0 83px;
+}
+
+
+.skills_header__title {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+
+  color: #202B2F;
+}
+
+.skills_line {
+  padding-top: 12px;
+}
+
+.skills_header__left_image {
+
+}
+
+.skills_line__left {
+
+}
+
+.skills_header__right_image {
+
+}
+
+.skills_line__right {
+
+}
+
+.skills__block {
+  display: flex;
+}
+
+.skills__item_left {
+  width: 33.33333%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.skills_item_left__image {
+  height: 282px;
+}
+
+.skills_item_image_video {
+  padding: 62px 63px 63px;
+
+  background: #202B2F;
+}
+
+.skills__item_center {
+  width: 33.33333%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.skills_item_center__image {
+  height: 282px;
+}
+
+.skills_item_image_design {
+  padding: 62px 62px 63px;
+
+  background: #202B2F;
+}
+
+.skills__item_right {
+  width: 33.33333%;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: right;
+}
+
+.skills_item_right__image {
+  height: 282px;
+}
+
+.skills_item_image_programming {
+  padding: 62px 62px 63px;
+
+  background: #202B2F;
+}
+
+.skills_item__name {
+  width: 282px;
+
+  text-align: center;
 }
 
 
