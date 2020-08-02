@@ -362,7 +362,7 @@ p {
 }
 
 .skills__item_left {
-  width: 33.33333%;
+  width: 30%;
 
   display: flex;
   flex-direction: column;
@@ -370,6 +370,8 @@ p {
 
 .skills_item_left__image {
   height: 282px;
+
+  border-right: 2px solid #848484;
 }
 
 .skills_item_image_video {
@@ -379,7 +381,7 @@ p {
 }
 
 .skills__item_center {
-  width: 33.33333%;
+  width: 40%;
 
   display: flex;
   flex-direction: column;
@@ -398,7 +400,7 @@ p {
 }
 
 .skills__item_right {
-  width: 33.33333%;
+  width: 30%;
 
   display: flex;
   flex-direction: column;
@@ -408,6 +410,8 @@ p {
 
 .skills_item_right__image {
   height: 282px;
+
+  border-left: 2px solid #848484;
 }
 
 .skills_item_image_programming {
@@ -419,9 +423,20 @@ p {
 .skills_item__name {
   width: 282px;
 
+  margin-top: 30px;
+
   text-align: center;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+
+  color: #000000;
 }
 
+.right {
+  margin-left: auto;
+}
 
 
 
