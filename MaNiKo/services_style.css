@@ -21,3 +21,192 @@ body {
  p {
    margin: 0;
  }
+
+ .container {
+  width: inherit;
+  margin: 0 218px;
+}
+
+
+
+/* Header
+====================================*/
+.header {
+  width: 100%;
+  height: 105px;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}
+
+.header__inner {
+  margin: 72px 105px 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.nav {
+
+}
+
+.nav__link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+
+  padding: 0 7px;
+
+  margin-left: 20px;
+
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav__link:first-child {
+  margin-left: 0;
+}
+
+.nav__link:hover {
+  padding-bottom: 7px;
+  border-bottom: 4px solid #051115;
+}
+
+.communicate {
+
+}
+
+.communicate__link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+
+  text-decoration: none;
+  color: #000000;
+}
+
+.communicate__modificator {
+  cursor: pointer;
+  width: 14px;
+  padding: 0 3px 0;
+}
+
+.lines {
+  padding-top: 12px;
+}
+
+
+
+/* Intro
+====================================*/
+.intro {
+  width: 100%;
+
+  padding-top: 105px;
+}
+
+.intro__header {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 78px 0 67px;
+}
+
+.intro_header__title {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+
+  color: #000000;
+}
+
+.services__types {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 67px;
+}
+
+.first_row {
+  display: flex;
+  width: 100%;
+
+  margin-bottom: 40px;
+}
+
+.second_row {
+  display: flex;
+  width: 100%;
+}
+
+.type {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+
+  text-decoration: none;
+
+  border: 2px solid #202B2F;
+  /* border-radius: 2px; */
+  background: #202b2f;
+
+  width: 276px;
+  height: 71px;
+  display: block;
+  text-align: center;
+  line-height: 71px;
+
+  margin-left: auto;
+
+  transition: 0.2s;
+}
+
+.type:first-child {
+  margin-left: 0;
+}
+
+.type:hover {
+  color: #202b2f;
+  background: none;
+}
+
+.services__inner {
+  display: flex;
+}
+
+.services_block {
+
+}
+
+.services_block__middle {
+
+}
+
+.item {
+  width: 50%;
+}
+
+.item__content {
+  width: 431px;
+  height: 431px;
+}
+
+
+
+
+
+
+
+
+
