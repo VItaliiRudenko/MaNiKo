@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  max-width: 1600px;
 
   background: #D3D3D3;
 }
@@ -22,6 +23,11 @@ p {
   margin: 0;
 }
 
+.max_width_container {
+  max-width: 1600px;
+  margin: auto;
+}
+
 .container {
   width: inherit;
   margin: 0 218px;
@@ -35,10 +41,12 @@ p {
   width: 100%;
   height: 105px;
 
+  max-width: 1600px;
+
   position: absolute;
 
   top: 0;
-  left: 0;
+  
 }
 
 .header__inner {
