@@ -63,13 +63,6 @@
                   d="M250.364,444h-0.119c-5.522,0-10,4.477-10,10s4.478,10,10,10h0.119c5.523,0,10-4.477,10-10S255.886,444,250.364,444z" />
             </g>
          </g>
-         <g>
-            <g>
-               <path d="M446,0H66C29.607,0,0,29.607,0,66v380c0,36.393,29.607,66,66,66h380c36.393,0,66-29.607,66-66V66
-                  C512,29.607,482.393,0,446,0z M492,446c0,25.364-20.636,46-46,46H66c-25.364,0-46-20.636-46-46V66c0-25.364,20.636-46,46-46h380
-                  c25.364,0,46,20.636,46,46V446z" />
-            </g>
-         </g>
       </symbol>
 
       <symbol id="Facebook" viewBox="0 0 512 512">
@@ -108,13 +101,13 @@
       </symbol>
 
       <symbol id="Insta" viewBox="0 0 512 512">
-         <g>
+         <!-- <g>
             <g>
                <path d="M362,0H150C67.29,0,0,67.29,0,150v212c0,82.71,67.29,150,150,150h212c82.71,0,150-67.29,150-150V150
                   C512,67.29,444.71,0,362,0z M492,362c0,71.682-58.318,130-130,130H150c-71.682,0-130-58.318-130-130V150
                   C20,78.318,78.318,20,150,20h212c71.682,0,130,58.318,130,130V362z" />
             </g>
-         </g>
+         </g> -->
          <g>
             <g>
                <path
@@ -158,6 +151,14 @@
                <path d="M387.25,86.75c-20.953,0-38,17.047-38,38s17.047,38,38,38s38-17.047,38-38S408.203,86.75,387.25,86.75z M387.25,142.75
                   c-9.925,0-18-8.075-18-18s8.075-18,18-18s18,8.075,18,18S397.175,142.75,387.25,142.75z" />
             </g>
+         </g>
+      </symbol>
+
+      <symbol id="Arrow" viewBox="0 0 451.111 451.111">
+         <g transform="matrix(-1.83697e-16 1 -1 -1.83697e-16 451.111 0)">
+            <path
+               d="m451.111 193.333h-322.222l112.778-112.777-48.333-48.333-193.334 193.333 193.333 193.333 48.333-48.333-112.777-112.778h322.222z"
+               data-original="#000000" class="active-path">
          </g>
       </symbol>
 
@@ -415,17 +416,18 @@
          <div class="social_links">
 
             <a class="social__block" href="#">
-               <svg class="soc_link">
+               <svg class="soc_link vk">
                   <use xlink:href="#VK"></use>
                </svg>
             </a>
 
-            <a class="social__block" href="#"><svg class="soc_link">
+            <a class="social__block" href="#">
+               <svg class="soc_link facebook">
                   <use xlink:href="#Facebook"></use>
                </svg>
             </a>
             <a class="social__block" href="#">
-               <svg class="soc_link">
+               <svg class="soc_link instagram">
                   <use xlink:href="#Insta"></use>
                </svg>
             </a>
@@ -448,8 +450,10 @@
             </div>
          </div>
          <div class="moving_arrow">
-            <a href="" class="moving_arrow__link">
-               <img class="moving_arrow__image" src="images/moving_arrow.png" alt="">
+            <a class="moving_arrow__link" href="#">
+               <svg class="arrow">
+                  <use xlink:href="#Arrow"></use>
+               </svg>
             </a>
          </div>
       </div>

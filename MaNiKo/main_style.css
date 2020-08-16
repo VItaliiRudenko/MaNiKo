@@ -211,13 +211,19 @@ p {
 
 /* Benefits
 ====================================*/
+.benefits {
+  width: inherit;
+
+  position: relative;
+}
+
 .benefits__background {
   position: absolute;
+  width: 100%;
 
   display: flex;
   justify-content: space-between;
 
-  width: 1600px;
   z-index: -1;
 }
 
@@ -410,6 +416,11 @@ p {
   background: #202B2F;
 }
 
+.skills_item_image_video:hover {
+  background: #202b2f url(images/skills_item_hover.png) no-repeat;
+  background-size: cover;
+}
+
 .skills__item_center {
   width: 40%;
 
@@ -427,6 +438,11 @@ p {
   padding: 62px 62px 63px;
 
   background: #202B2F;
+}
+
+.skills_item_image_design:hover {
+  background: #202b2f url(images/skills_item_hover.png) no-repeat;
+  background-size: cover;
 }
 
 .skills__item_right {
@@ -448,6 +464,11 @@ p {
   padding: 62px 62px 63px;
 
   background: #202B2F;
+}
+
+.skills_item_image_programming:hover {
+  background: #202b2f url(images/skills_item_hover.png) no-repeat;
+  background-size: cover;
 }
 
 .skills_item__name {
@@ -770,11 +791,31 @@ p {
 }
 
 .soc_link {
-  height: inherit;
+  height: 30px;
+  width: 30px;
+}
+
+.vk {
+  border: 1px solid #202b2f;
+  border-radius: 6px;
+}
+
+.facebook {
+  border-radius: 6px;
+}
+
+.facebook:hover {
+  border: 1px solid #202b2f ;
+}
+
+.instagram {
+  border: 1px solid #202b2f;
+  border-radius: 6px;
 }
 
 .soc_link:hover {
-  
+  background: #202b2f;
+  fill: #D3D3D3;
 }
 
 .footer_top__content {
@@ -846,6 +887,22 @@ p {
 
   display: flex;
   align-items: center;
+}
+
+.arrow {
+  width: 32px;
+  height: 32px;
+
+  padding: 10px;
+  fill: #202b2f;
+
+  border: 4px solid #202b2f;
+  border-radius: 100%;
+}
+
+.arrow:hover {
+  fill: #dcdcdc;
+  background: #202b2f;
 }
 
 .moving_arrow__image {
